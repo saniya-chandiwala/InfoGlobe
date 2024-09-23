@@ -1,0 +1,64 @@
+@import './responsive';
+
+.h70px {
+  height: 70px;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn {
+	box-shadow: 0 10px 10px rgb(79 91 100 / 10%) !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.inputField {
+  // box-shadow: 0 2px 8px rgb(79 91 100 / 10%) !important;
+  color: hsl(0, 0%, 52%) !important;
+  height:50px;
+  border: none;
+  &:focus {
+    border: hsl(209, 23%, 22%) !important;
+  }
+}
+
+.countryContainer { 
+  height: 350px;
+  // width:80vw;
+  cursor:pointer;
+}
+
+.imgContainer {
+  height:45%;
+  width:100%;
+}
+
+.filter {
+  width:200px;
+  height:50px;
+}
+
+.navBack {
+  width: 120px;
+}
+
+.dropdownMenu {
+  width: 200px;
+}
+
+.img {
+  object-fit: cover;
+}
+
+@include media-md{
+
+.countriesRow {
+  padding: 0px 30px;
+}
+
+}
